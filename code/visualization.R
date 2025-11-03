@@ -18,7 +18,3 @@ cancer.abbr <- tibble::tribble(
 
 cancer.colours        <- c("#B15928", "#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99", "#E31A1C", "#FDBF6F", "#FF7F00", "#CAB2D6", "#6A3D9A", "#FFED6F", "#999999")
 names(cancer.colours) <- cancer.abbr$abbr
-
-
-datasets.remove <- c("Data_Lung_Zilionis2019_LUAD", "Data_Prostate_Song2022", "Data_Pancreatic_Moncada2020",
-                     "Data_Pancreatic_Raghavan2021", "Data_Ovarian_Olalekan2021_HGSOC", "Data_Brain_Yuan2018_GBM")
